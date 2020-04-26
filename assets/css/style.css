@@ -15,7 +15,66 @@ body {
     
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 
     position: relative;
 }
+
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+    color: #a7a7a7;
+    margin: 25px 0;
+}
+
+
+
+/* Block dividers */
+
+.block-divider {
+    width: 85px;
+    height: 4px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider--callout {
+    background-color: #df4929;
+}
+
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #df4929;
+    border-color: #df4929;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #fa163f;
+    border-color: #fa163f;
+    color: white;
+}
+
+
