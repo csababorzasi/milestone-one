@@ -52,10 +52,11 @@ body {
     -o-background-size: cover;
     background-size: cover;
     background-position: 50% 50%;
+    background-repeat: repeat-x;
 
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
 
     position: relative;
 }
@@ -68,15 +69,23 @@ body {
     background-color: transparent;
 }
 
+/*#c32b2b*/
 .jumbotron h1 {
-    color: #05259a;
-    font-weight: bolder;
+    color: #c32b2b;
+    font-size: 70px;
+    font-weight: 600;
     margin-bottom: 30px;
 }
 
 .jumbotron .lead {
-    color: #fff;
+    color: #05259a;
     margin: 25px 0;
+    font-size: 26px;
+}
+
+span { 
+    background-color: #e7eff3; 
+    opacity: 0.8;
 }
 
 
@@ -161,6 +170,7 @@ body {
     text-align: center;
     padding-top: 60px;
     padding-bottom: 60px;
+    
 }
 
 .page-header h2 {
@@ -178,7 +188,16 @@ body {
 
 .quote-center {
     height: auto; 
+    position: relative;
+    text-align: center;
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+
 
 div.quote-center p {
     text-align: center;
@@ -188,7 +207,7 @@ div.quote-center p {
     top: 50%;
     transform: translateY(-50%);
 }
-
+    
 
 @media (max-width: 767px) {
     div.quote-center p {
