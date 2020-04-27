@@ -41,10 +41,6 @@ body {
 
 
 
-
-
-
-
 /* --------------------------- Callout */
 
 .callout-container {
@@ -63,6 +59,7 @@ body {
 
     position: relative;
 }
+
 
 
 /* --------------------------- Jumbotron */
@@ -128,6 +125,28 @@ body {
     color: white;
 }
 
+.btn--features {
+    color: #f7f7f7;
+    background-color: #323643;
+
+}
+
+.btn--features:hover {
+    background: #ff570c;
+    border-color: #ff570c;
+}
+
+.btn--footer {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #f7f7f7;
+}
+
+.btn--footer:hover {
+    background: #ff570c;
+}
+
+
 
 
 /* --------------------------- Quotes */
@@ -165,4 +184,59 @@ div.quote-center p {
 /* --------------------------- Footer */
 
 
+footer {
+    background-color: #323643;
+    color: #f7f7f7;
+    min-height: 100px;
+    margin: 0;
+    padding: 20px;
+}
 
+
+.social-links {
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.social-links li a i {
+    width: 36px;
+    height: 36px;
+    padding: 16px 0;
+    border-radius: 50%;
+    font-size: 22px;
+    line-height: 7px;
+    text-align: center;
+    color: #323643;
+    background: #f7f7f7;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #ff570c;
+}
+
+
+.contact-details {
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.contact--symbol { 
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+
+.contact--symbol li i {
+    width: 36px;
+    height: 36px;
+    padding: 16px 0;
+    border-radius: 50%;
+    font-size: 22px;
+    line-height: 15px;
+    text-align: center;
+    color: #323643;
+    background: #f7f7f7;
+}
