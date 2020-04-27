@@ -8,6 +8,7 @@ body {
 .alert {
     position: relative;
     padding: 2px;
+    padding-left: 5px;
     margin-bottom: 0;
     border: 1px solid transparent;
     border-radius: 0;
@@ -71,19 +72,16 @@ body {
 }
 
 .jumbotron h1 {
-    color: white;
+    color: #05259a;
     font-weight: bolder;
     margin-bottom: 30px;
 }
 
 .jumbotron .lead {
-    color: #00334e;
+    color: #fff;
     margin: 25px 0;
 }
 
-.jumbotron p {
-    color: #00334e;
-}
 
 
 /* --------------------------- Block dividers */
@@ -97,6 +95,13 @@ body {
 
 .block-divider--callout {
     background-color: #df4929;
+}
+
+.block-divider--quotes {
+    width: 300px;
+    height: 1px;
+    background-color: #df4929;
+
 }
 
 
@@ -124,3 +129,64 @@ body {
 }
 
 
+
+/* --------------------------------------------Quotes */
+
+.quotes {
+    background-color: #fff;
+} 
+
+.quote-center {
+    height: auto; 
+}
+
+div.quote-center p {
+    text-align: center;
+    position: absolute;
+    margin: 0;
+    height: inherit; 
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+@media (max-width: 767px) {
+    div.quote-center p {
+        text-align: center;
+        position: relative;
+        margin: 0;
+        height: inherit; 
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+}
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row {
+    width: auto;
+    border: 1px solid blue;
+}
+.flex-item {
+    background-color: tomato;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
