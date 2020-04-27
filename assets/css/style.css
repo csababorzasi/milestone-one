@@ -7,10 +7,10 @@ body {
 
 .alert {
     position: relative;
-    padding: 2px;
+    padding: 0;
     padding-left: 5px;
     margin-bottom: 0;
-    border: 1px solid transparent;
+    
     border-radius: 0;
 }
 
