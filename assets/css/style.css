@@ -130,7 +130,7 @@ body {
 
 
 
-/* --------------------------------------------Quotes */
+/* --------------------------- Quotes */
 
 .quotes {
     background-color: #fff;
@@ -160,5 +160,9 @@ div.quote-center p {
         transform: translateY(-50%);
     }
 }
+
+
+/* --------------------------- Footer */
+
 
 
