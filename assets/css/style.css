@@ -3,10 +3,11 @@ body {
 }
 
 
+/* --------------------------- Navbar */
 
 .alert {
     position: relative;
-    padding: 5px;
+    padding: 2px;
     margin-bottom: 0;
     border: 1px solid transparent;
     border-radius: 0;
@@ -18,7 +19,56 @@ body {
     border-color: #e6d04c;
 }
 
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .25);
+    border: 0;
+}
 
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+
+.social-icons {
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.social-links li a i {
+    width: 36px;
+    height: 36px;
+    padding: 16px 0;
+    border-radius: 50%;
+    font-size: 22px;
+    line-height: 7px;
+    text-align: center;
+    color: #00334e;
+    background: #cff1ef;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+
+
+
+
+/* --------------------------- Callout */
 
 .callout-container {
     height: 100vh;
@@ -38,7 +88,7 @@ body {
 }
 
 
-/* Jumbotron */
+/* --------------------------- Jumbotron */
 
 .jumbotron {
     background-color: transparent;
@@ -60,8 +110,7 @@ body {
 }
 
 
-
-/* Block dividers */
+/* --------------------------- Block dividers */
 
 .block-divider {
     width: 85px;
@@ -75,7 +124,7 @@ body {
 }
 
 
-/* Buttons */
+/* --------------------------- Buttons */
 
 .btn--cta {
     font-weight: bold;
