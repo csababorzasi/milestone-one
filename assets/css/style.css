@@ -4,6 +4,22 @@ body {
 
 
 
+.alert {
+    position: relative;
+    padding: 5px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+
+.alert-info {
+    color: #b52606;
+    background-color: #e6d04c;
+    border-color: #e6d04c;
+}
+
+
+
 .callout-container {
     height: 100vh;
 
@@ -12,7 +28,8 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+    background-position: 50% 50%;
+
     display: flex;
     align-items: center;
     justify-content: left;
@@ -34,8 +51,12 @@ body {
 }
 
 .jumbotron .lead {
-    color: #a7a7a7;
+    color: #00334e;
     margin: 25px 0;
+}
+
+.jumbotron p {
+    color: #00334e;
 }
 
 
