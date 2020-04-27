@@ -6,6 +6,7 @@ body {
 /* --------------------------- Navbar */
 
 .alert {
+    height: 25px;
     position: relative;
     padding: 0;
     padding-left: 5px;
@@ -22,8 +23,9 @@ body {
 .navbar {
     margin-bottom: 0;
     width: 100%;
-    /*background-color: rgba(0, 0, 0, .25);*/
-    background-color: #323643
+    
+    background-color: rgba(0, 0, 0, .25);
+    /*background-color: #323643*/
     border: 0;
 }
 
@@ -33,12 +35,16 @@ body {
 
 .navbar .navbar-brand {
     font-weight: bold;
+    height: auto;
 }
 
 .navbar .navbar-nav a {
     font-weight: bold;
 }
 
+.dropdown-menu {
+    background-color: rgba(255,255,255,.5);
+}
 
 
 /* --------------------------- Callout */
@@ -170,14 +176,17 @@ span {
     text-align: center;
     padding-top: 60px;
     padding-bottom: 60px;
-    
+    padding-right: 0;
 }
 
 .page-header h2 {
+    font-weight: 500;
     margin-top: 0;
 }
 
-
+div.col-12.page-header {
+    padding-right: 0;
+}
 
 
 /* --------------------------- Quotes */
@@ -197,8 +206,6 @@ span {
     justify-content: center;
 }
 
-
-
 div.quote-center p {
     text-align: center;
     position: absolute;
@@ -207,7 +214,6 @@ div.quote-center p {
     top: 50%;
     transform: translateY(-50%);
 }
-    
 
 @media (max-width: 767px) {
     div.quote-center p {
@@ -219,6 +225,64 @@ div.quote-center p {
         transform: translateY(-50%);
     }
 }
+
+.img-fluid {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+
+/* --------------------------- Features */
+
+.features-container {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #cdd5e0;
+} #738598 #d5daeb
+
+
+.card-deck {
+
+}
+
+.card-deck .card {
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+@media (min-width: 576px)
+.card-deck .card {
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    /*border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem; */
+    border-color: transparent;
+} 
+
+
+
+
 
 
 /* --------------------------- Footer */
