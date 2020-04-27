@@ -10,7 +10,6 @@ body {
     padding: 0;
     padding-left: 5px;
     margin-bottom: 0;
-    
     border-radius: 0;
 }
 
@@ -23,7 +22,8 @@ body {
 .navbar {
     margin-bottom: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, .25);
+    /*background-color: rgba(0, 0, 0, .25);*/
+    background-color: #323643
     border: 0;
 }
 
@@ -233,12 +233,12 @@ footer {
 }
 
 
-.social-links {
-    padding-bottom: 0;
+.social-media-links {
+    padding-bottom: 16px;
     margin: 0;
 }
 
-.social-links li a i {
+.social-media-links li a i {
     width: 36px;
     height: 36px;
     padding: 16px 0;
@@ -254,7 +254,7 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links li a i:hover {
+.social-media-links li a i:hover {
     background: #ff570c;
 }
 
@@ -266,7 +266,7 @@ footer {
 
 .contact--symbol { 
     padding-bottom: 15px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .contact--symbol li i {
