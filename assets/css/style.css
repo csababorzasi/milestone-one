@@ -209,34 +209,12 @@ div.col-12.page-header {
     padding-right: 0;
 }
 
-
-.card-img {
-    position: relative;
-}
-
-.card-img-overlay {
-    position: center;
-    vertical-align: middle;
-    justify-content: center;
-}
-
-.card-title {
-    font-style: uppercase;
-    color: white;
-
-}
-
 .page-heading {
     padding-top: 20px;
     padding-bottom: 30px;
-    font-display: bold;
     text-align: center;
 }
 
-/*
-.heading-h3 {
-    font-display: bold;
-}*/
 
 /* --------------------------- Quotes */
 
@@ -324,8 +302,6 @@ div.quote-center p {
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    /*border: 1px solid rgba(0,0,0,.125);
-    border-radius: .25rem; */
     border-color: transparent;
 } 
 
@@ -343,6 +319,12 @@ div.quote-center p {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+/* --------------------------- Lists */
+
+ol li {
+  padding-bottom: 25px;
 }
 
 /* --------------------------- Contact Form */
