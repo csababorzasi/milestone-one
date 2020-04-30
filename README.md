@@ -1,6 +1,6 @@
 
 
-# [__Study Romanian__ | Learn Romanian Language in Your School](https://csababorzasi.github.io/milestone-one/.)
+# [__Study Romanian__ | Learn Romanian Language in Your School](https://csababorzasi.github.io/milestone-one/)
 
 *Code Institude Milestone Project #1*
 ***
